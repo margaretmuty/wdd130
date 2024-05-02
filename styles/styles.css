@@ -24,12 +24,12 @@ main {
     max-width: 840px;
 }
 aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2); /* 1 */
+    width: 35rem;
+    margin: 3rem;
+    border: 2px solid rgba(0, 0, 0, 0.5); /* 1 */
     padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    background-color: #ddd;
+    color: #222;
 }
 aside img {
     width: 200px;
