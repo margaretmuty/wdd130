@@ -24,10 +24,10 @@ main {
     max-width: 840px;
 }
 aside {
-    width: 35rem;
+    width: 53rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2); /* 1 */
-    padding: 3rem;
+    padding: 2rem;
     background-color: #fff;
     color: #332;
 }
@@ -41,7 +41,7 @@ aside img {
 }
 p { padding: 0;}
 footer {
-    margin-top: 10px;
+    margin-top: 10;
     border-top: 1px solid #333;
     text-align: center;
 }
