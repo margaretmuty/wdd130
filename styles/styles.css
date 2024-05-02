@@ -28,8 +28,8 @@ aside {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2); /* 1 */
     padding: 2rem;
-    background-color: #fff;
-    color: #332;
+    background-color: #ffe;
+    color: #000;
 }
 aside img {
     width: 200px;
