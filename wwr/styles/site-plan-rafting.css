@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Lemon&family=Rosarivo:ital@0;1&display=swap');
 body {
     font-family: var(--paragraph-font);
-    max-width; 960px;
+    max-width: 960px;
     padding: 20px;
     }
     :root {
         --primary-color:#177b9f; 
         --secondary-color:#035d87;
-        --accent1-color: #ddd8c4;
+        --accent1-color:#ddd8c4;
         --accent2-color:#2d232e;
         
         --heading-font: 'lemon',serif;
@@ -42,7 +42,8 @@ body {
     }
 
     nav a {
-        display: blockcolor: var(--nav-link-color);
+        display: block;
+        color: var(--nav-link-color);
         text-decoration: none;
         padding: 2rem;
     }
@@ -53,5 +54,5 @@ body {
 
     na a:hoover {
         color: var(--nav-hover-link-color);
-        background-color: var(--nav-hover-background-color)
+        background-color: var(--nav-hover-background-color);
     }
