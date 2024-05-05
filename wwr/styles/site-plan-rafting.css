@@ -52,7 +52,7 @@ body {
         color: var(--nav-link-color);
     }
 
-    na a:hoover {
+    nav a:hoover {
         color: var(--nav-hover-link-color);
         background-color: var(--nav-hover-background-color);
     }
