@@ -41,9 +41,9 @@ aside img {
     width: 150px;
     height: auto;
     float: right;
-    border: 1px solid powderblue;
+    border: 1px solid #9EB9D4;
     padding: 10px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px#708090;
 }
 p { padding: 0;}
 footer {
@@ -56,7 +56,7 @@ footer {
     margin: 1rem;
     border: 1px solid rgba(27, 143, 221, 0.2);
     padding: 1rem;
-    background-color: #ddeaf7;
+    background-color: #F5F5F5;
     color: #010b13;
 }
 aside {
