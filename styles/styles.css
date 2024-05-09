@@ -41,9 +41,9 @@ aside img {
     width: 150px;
     height: auto;
     float: right;
-    border: 1px solid #steelblue;
+    border: 1px solid powderblue;
     padding: 10px;
-    box-shadow: 0 0 30px #gray;
+    box-shadow: 0 0 30px gray;
 }
 p { padding: 0;}
 footer {
@@ -54,10 +54,10 @@ footer {
 /* Class Selectors */
 .box {
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(27, 143, 221, 0.2);
     padding: 1rem;
-    background-color: #ffe;
-    color: #000;
+    background-color: #ddeaf7;
+    color: #010b13;
 }
 aside {
     width: 20cm;
