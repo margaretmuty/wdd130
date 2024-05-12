@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Lemon&family=Rosarivo:ital@0;1&display=swap');
+
+   :root {
+        --primary-color:#177b9f; 
+        --secondary-color:#035d87;
+        --accent1-color:#ddd8c4;
+        --accent2-color:#2d232e;
+        
+        --heading-font: 'lemon',serif;
+        --paragraph-font: 'Rosarivo',serif;
+       }
+    h1, h2 {
+        font-family: var(--heading-font);
+        color: var(--Primary-color);
+    }
+
+    p {
+        font-family: var(--paragraph-font);
+        color:  var(--Primary-color); 
+        font-size: 13;
+    }
+    
+    nav a {
+        text-decoration-line: none;
+    }
+    
+    header {
+        padding: 20px;
+    }
+
+    p {
+        padding: 10px;
+    }
+    nav a {
+        font-size: 2.0rem; 
+        padding:  1rem; 
+        color: #177b9f;           
+     }
+     .sociallinks {
+        padding: 1rem;
+     }
+
+     body{
+        width: 600px;
+        padding: 1.2rem;
+    }
+    .hero {
+        position: relative;
+    }
+    h1 {
+        position: absolute;
+       border: 1px solid #212924;
+        background:#344139;
+        color: #ddd8c4;
+        width: 610px;
+        top: 1px;
+        padding: 2rem;
+        margin-left: 1rem;;
+    }
+
+  .hero {
+    position: relative;
+}
+article {    
+    width: 10cm;
+    position: absolue;    
+
+article p {
+    position: abolute;
+    width: 200cm;;
+    border: 1px solid #212924;
+    background: #ddd8c4;
+    
+}
+article img{
+    float: left;
+    position:absolute;
+    border: 1px solid #212924;
+    background: #ddd8c4;
+    top: 15px;    
+}   
