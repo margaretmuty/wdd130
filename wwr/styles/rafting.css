@@ -17,7 +17,7 @@
     p {
         font-family: var(--paragraph-font);
         color:  var(--Primary-color); 
-        font-size: 13;
+        font-size: #13;
     }
     
     nav a {
@@ -29,13 +29,9 @@
     }
 
     p {
-        padding: 10px;
+        padding: 1px;
     }
-    nav a {
-        font-size: 2.0rem; 
-        padding:  1rem; 
-        color: #177b9f;           
-     }
+ 
      .sociallinks {
         padding: 1rem;
      }
@@ -44,38 +40,34 @@
         width: 600px;
         padding: 1.2rem;
     }
+    article p {
+        position: relative;
+        width: 15cm;
+        top: -15cm;
+      
+    }
+    article img{
+        float: right;
+        position: relative;
+        top: -10cm;
+        width: 100%;
+        height: auto;    
+    }   
     .hero {
         position: relative;
     }
     h1 {
         position: absolute;
-       border: 1px solid #212924;
-        background:#344139;
+        border: 1px solid #212924;
+        background:#2d3330;
         color: #ddd8c4;
         width: 610px;
         top: 1px;
         padding: 2rem;
         margin-left: 1rem;;
     }
+    article {    
+        position: absolute;          
+   }
 
-  .hero {
-    position: relative;
-}
-article {    
-    width: 10cm;
-    position: absolue;    
-
-article p {
-    position: abolute;
-    width: 200cm;;
-    border: 1px solid #212924;
-    background: #ddd8c4;
     
-}
-article img{
-    float: left;
-    position:absolute;
-    border: 1px solid #212924;
-    background: #ddd8c4;
-    top: 15px;    
-}   
