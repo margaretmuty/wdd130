@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Lemon&family=Rosarivo:ital@0;1&display=swap');
 
+* {
+    padding:0
+    box-sizing: border-box;    
+}
+
    :root {
         --primary-color:#177b9f; 
         --secondary-color:#035d87;
@@ -17,57 +22,47 @@
     p {
         font-family: var(--paragraph-font);
         color:  var(--Primary-color); 
-        font-size: #13;
     }
     
     nav a {
         text-decoration-line: none;
+        }
+    main {
+        max-width: 900px;
     }
-    
-    header {
-        padding: 20px;
-    }
-
-    p {
-        padding: 1px;
-    }
- 
-     .sociallinks {
-        padding: 1rem;
-     }
 
      body{
-        width: 600px;
-        padding: 1.2rem;
+        padding: 2rem;
+        font-size: 22px; 
+        margin-top: 1rem;     
     }
-    article p {
-        position: relative;
-        width: 15cm;
-        top: -15cm;
-      
-    }
-    article img{
-        float: right;
-        position: relative;
-        top: -10cm;
-        width: 100%;
-        height: auto;    
-    }   
+
+    /* class selectors */
     .hero {
+        display: block;
+        width: 100%;
+        height: auto;
         position: relative;
     }
     h1 {
-        position: absolute;
-        border: 1px solid #212924;
-        background:#2d3330;
+        padding: 1rem;
+        background-color: #6b6a6a;
+        width: 48rem;
         color: #ddd8c4;
-        width: 610px;
-        top: 1px;
-        padding: 2rem;
-        margin-left: 1rem;;
+        text-align: center;
+        position: absolute;
+        top: 20px;        
     }
-    article {    
-        position: absolute;          
-   }
-
     
+    article {
+        position: absolute;
+        padding: 1rem;
+        margin-left: 3rem;
+        bottom: 19rem;
+        width: 40rem;
+        background-color: #035d87;
+        color: #ddd8c4;
+    }
+    article img {
+        float: right;        
+    }    
