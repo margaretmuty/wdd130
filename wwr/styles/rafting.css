@@ -2,7 +2,7 @@
 
 * {
     padding:0
-    box-sizing: border-box;    
+    
 }
 
    :root {
@@ -33,7 +33,7 @@
 
      body{
         padding: 2rem;
-        font-weight: 25px; 
+        font-size: 1em; 
         margin-top: 1rem;     
     }
 
