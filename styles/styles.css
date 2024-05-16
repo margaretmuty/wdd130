@@ -37,7 +37,7 @@ img {
 p {
     padding: 10px;
 }
-Header, footer, .grid {
+Header, footer {
     max-width: 840px;
     margin: 0 auto;
 }
