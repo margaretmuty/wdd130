@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    }
+    Body {
+        font-family: Garamond, Noto, PT, Serif;
+        font-size: 1.3em;
+        color: #0B0B0F;
+        background-color: #E8EDF3;
+    }
+    header {
+        margin: auto;
+        width: 700px;
+    }
+    h1 {
+        margin: 1rem;
+        font-size: 1.3em;
+        color: rgb(2, 36, 68);
+        text-align: center;
+    }
+    form {
+        width: 750px;
+        margin: 0 auto;
+        padding: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 0.5rem;
+        background-color: #c9c6c6;
+        display:grid;
+    }
+    fieldset {
+        display: grid;
+        grid-gap: 2rem;
+        margin: 1rem;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        background-color:#E6E6E6;
+        padding: 1.5rem;
+    }
+    legend {
+        color:black;
+        font-size: 1.5em;
+        font-weight: bold;        
+    }
+    label, input,button,select, textarea {
+        font-family:'Times New Roman', Times, serif
+    }
+    label {
+        text-align: left;
+        padding-right: 0.2rem;
+    }
+    input, select, textarea {
+        padding: 0.5rem;
+        font-size: 1em;
+    }
+    button {
+    width: 9rem;
+    font-size: 1em;
+    font-style: normal;
+    color: #fff;
+    margin-left: 35rem;   
+    border: 1px solid rgba(250, 7, 7, 0);
+    background-color: #0000A3
+    }
+    button:hover {
+        background-color: rgba(18, 2, 75, 0.979);
+    }
+    footer {
+       text-align: center;
+       font-style: italic; 
+       width: 850px;
+       margin: 2rem auto 0;  
+       margin-top: 3px;  
+       border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    .form-items {
+        display: grid;
+        align-items: center;
+    }
+    .items1 {
+        grid-template-columns: 3fr 5fr;
+        margin-right: 0.5rem;        
+    }
+    .items2 {
+        grid-template-columns: 1fr 2fr;
+        margin-right: 0.5rem;
+    }
