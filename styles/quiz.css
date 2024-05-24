@@ -53,6 +53,7 @@
     input, select, textarea {
         padding: 0.5rem;
         font-size: 1em;
+        margin-left: 2rem;
     }
     button {
     width: 9rem;
