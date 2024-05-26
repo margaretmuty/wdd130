@@ -3,70 +3,102 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <meta name="description" content="Contact Us page provides our contact information">         
+        <meta name="description" content="Thrillers White Water Rafters Contact Us page">         
         <meta name="author" content="Margaret Mutyengedye"> 
-        <title>Contact Us | Thrillers White Water Rafters</title>  
+        <title>Margaret Mutyengedye| wdd130 | [Contact Us</title>   
         <link rel="stylesheet" href="styles/rafting.css">              
     </head>
     <body>
         <header>
-            <nav>                
-            <img src="images/logo.png" alt="Rafting Site Logo"> 
-            <a href="wwr/index.html">Home</a>
-            <a href="wwr/aboutus.html">About Us</a>
-            <a href="wwr/trips.html">Trips</a>
-            <a href="wwr/contact.html">Contacts</a>
-            </nav>                 
-        </header>        
-            <main>
-                <h1>Contact Us</h1>  
-                <h2>Visit us at </h2>
-                <p>Thrillers White Water Rafters<br>
+                <nav>                                                
+                    <img src="images/logo.png" alt="Rafting Site Logo">                                          
+                    <a href="wwr/index.html">Home</a>
+                    <a href="wwr/aboutus.html">About Us</a>
+                    <a href="wwr/trips.html">Trips</a>
+                    <a href="wwr/contact.html">Contacts</a>
+                </nav> 
+        </header>                           
+            <main> 
+                <div class="hero">                    
+                     <img src="images/hero.jpg" alt="Hero"> 
+                     <h1>Thrillers White Water Rafters</h1>
+                <Article>  
+                    <img src="images/happy-rafter.jpg" alt="Happy Rafter">            
+                     <p>Purpose,mission,creed,motto,Lorem ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </Article>                   
+                </div class="contacts1">                    
+                <div>                    
+                <section>  
+                    <p>Contact Us<br>                     
                     63, Devon Road,<br>
                     Riverland<br>
                     Victoria Falls<br>
-                    Zimbabwe<br>
-                </p>   
-                <p>Phone +263-9-65321487/ +263-9-05892456</p>   
-                <p>Email address</p> <a href="mailto:">contact.admin@thrillerswwr.org</a></p> 
-                <div class="map">
+                    Zimbabwe<br></p>   
+                    <p>Phone +263-9-65321487 / +263-9-05892456</p>   
+                    <p>Email address</p> <p><a href="mailto:">contact.admin@thrillerswwr.org</a></p> 
+                    <section> 
+                    </div>                
+                    <div class="map">
                     <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60789.72416322738!2d27.20685007964143!3d-17.77487550880102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x194f4b43cdaa11e5%3A0x5bbafdac03ee2a95!2sEagles%20Landing!5e0!3m2!1sen!2suk!4v1716520378296!5m2!1sen!2suk" 
                     width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>
-                <h3>Happy employees</h3>  
-                <img src="images/customer-service.jpeg" alt="customer service" width="200"> 
-                <img src="images/tourguides.jpg" alt="Our tour guides" width="200"> 
-                <img src="images/happy-admin.jpeg" alt="Admin employees" width="200"> 
+                </div>                 
+                    <h3>Meet the Team</h3>
+                    </div class="employees">
+                    <figure> 
+                    <img src="images/customerservice.jpg" alt="How can we help you?" width="200">
+                    <figcaption>Customer service department</figcaption>
+                    </figure> 
+                    </figure>
+                    <img src="images/dedicatedteam.jpg" alt="dedicated Team" width="200">
+                    <figcaption>Unity</figcaption>
+                    </figure>
+                    <figure>
+                    <img src="images/tourguides.jpg" alt="Our Tour guides" width="200"> 
+                    <figcaption>Tour guides</figcaption>
+                    </figure>
+                </div>
+                </section> 
                 <form>
                     <fieldset>
                     <legend>Contact Information</legend>
-                    <label for="name">What is your name?</label>
-                    <input type="text" id="name" name="name">
-                    <label for="email">what is your e-mail address</label>
-                    <input type="text" id="email" name="email">
+                    <div class="form-item column1"></div>
+                        <label for="name">What is your name?</label>
+                        <input type="text" id="name" name="name">
+                        <label for="email">What is your e-mail address?</label>
+                        <input type="text" id="email" name="email">
+                    </div>
+                     <!-- form elements will go here --> 
                     </fieldset>
                     <fieldset>
+                    <div class="form-item column2"></div>
                         <legend>What is the purpose of your message?</legend>
-                        <input type="radio" id="html" name="purpose" value="General Inquiry">
+                        <input type="radio" id="general" name="purpose" value="general">
                           <label for="general">General Inquiry</label>
-                          <input type="radio" id="reservation" name="purpose" value="CSS">
+                          <input type="radio" id="reservation" name="reservation" value="CSS">
                           <label for="reservation">Reservation Question</label><br>
-                          <input type="radio" id="Website Suggestion" name="purpose" value="Website Suggestion">                        
+                          <input type="radio" id="website" name="website" value="Website">                        
                           <label for="website">Website Suggestion</label>
+                    </div>
+                          <!-- form elements will go here --> 
+                    </fieldset>                      
+                    <fieldset>
+                        <legend>Message</legend>
+                    <div class="form-item column2"></div>
+                        <label for="message">Type your message here</label>
+                        <input type="text" id="message" name="message">
+                        <!-- form elements will go here -->
+                    </div> 
                     </fieldset>
                     <fieldset>
-                        <legend>Your Message</legend>
-                        <label for="message">Type your mesage here</label>
-                        <input type="text" id="message" name="message">
-                    <fieldset>
-                    <!-- form elements will go here -->
-                    <fieldset>
+                        <div class="form-item column3">
                         <legend>To subscribe to our monthly newsletter. please tick in the "Please subscribe me to the monthly newsletter" box</legend>
                         <label for="subscribe">Please subscribe me to the monthly newsletter</label>
-                         <input type="checkbox" id="subscribe" name="subscribe"> 
+                         <input type="checkbox" id="subscribe" name="subscribe">
+                         </div"> 
                     <!-- form elements will go here -->                        
                     </fieldset>
-                    <button type="submit">Submit message</button>
+                    <button type="submit">Click here to Submit your message</button>
                 </form>
             </main>
         <footer>
@@ -81,7 +113,8 @@
                     <a href="https://facebook.com">
                     <img src="images/facebook.jpg" alt="facebook"> 
                     </a>
-                </nav>        
+                </nav> 
+                wireframe URL:<a>href=https://app.moqups.com/AHgaBz6adZHT16a5uqZQsNOYBoirZj2u/view/page/a2a00afc0</footer>a>    
         </footer>          
     </body>
-    </html>
+</html>

@@ -22,6 +22,8 @@
         text-align: center;
     }
     form {
+        display: grid;
+        grid-template-columns: auto;
         width: 750px;
         margin: 0 auto;
         padding: 0.5rem;
@@ -76,7 +78,6 @@
        border-top: 1px solid rgba(0, 0, 0, 0.1);
     }
     .form-items {
-        display: grid;
         align-items: center;
     }
     .items1 {
