@@ -18,9 +18,7 @@
     }
     p {
      font-family: var(--paragraph-font);
-     color:  var(--Primary-color);
-     padding: 0
-    
+     color:  var(--Primary-color);    
     }    
     header {
         display: grid;
@@ -126,8 +124,7 @@
         font-family: var(--paragraph-font);
         color:  var(--Primary-color);
         gap: 5px;
-        width: 300px; 
-          
+        width: 300px;
     }
     input[type="checkbox"] {
         width: 25px;
@@ -143,8 +140,7 @@
         font-style: normal;
         color: #fff;        
         border: 2px solid #177b9f;  
-        background-color: #0000A3
-       
+        background-color: #0000A3       
     }
     button:hover {
          background-color: rgb(66, 15, 2);
@@ -271,5 +267,4 @@ article img {
     }      
     .sociallinks a {
         text-decoration-line: none;
-    }  
-    
+    } 
