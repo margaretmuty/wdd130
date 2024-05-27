@@ -53,7 +53,7 @@
         text-decoration-line: none;         
         color: #fff;
         background-color: rgb(107, 35, 17);
-        border: border: 2px solid #177b9f;       
+        border: 2px solid #177b9f;       
         width: 15rem; 
         height: 1.8rem;          
         font-size: larger; 
@@ -155,7 +155,6 @@
     position: relative; 
     margin-top: 0.5rem;    
     align-content: center;
-    border: 2px solid
     border: 2px solid #177b9f; 
     background-color: #f6f8f3;
     border-width: 3px; 
@@ -252,7 +251,7 @@ article img {
         font-weight: bold;
         font-style: italic;
     }
-    . map {       
+    .map {       
         position: absolute;         
     }   
     .team {
