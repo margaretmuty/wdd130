@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Lemon&family=Rosarivo:ital@0;1&display=swap');
 * {
     padding: 0;
-    margin: 0;    
+    margin: 0;   
 }
 
 :root {
@@ -50,7 +50,7 @@
         justify-content: flex-end;
         text-decoration-line: none;                
     }    
-    .navigation a:hover {
+    navigation a:hover {
         background-color: rgb(2, 24, 11);
     }
     section h2 {
@@ -104,12 +104,12 @@
         margin-top: 0.4rem;       
         border-color: #177b9f;
         border: 1px solid #177b9f;      
-        background-color: rgb(240, 242, 247);
+        background-color: rgb(43, 41, 41)
         display:grid;  
         position: relative;
         padding-top: 2rem;
         padding-bottom: 0.5rem;
-        height: 23rem;      
+        height: 21rem;      
     }
     fieldset {
         display: grid;      
@@ -127,15 +127,15 @@
         color: #010131;                  
     }
     legend {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: var(--Primary-color);
-        font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color: var(--Primary-color);
+     font-weight: 700;
     }
     label textarea {
-        font-family: var(--paragraph-font);
-        color:  var(--Primary-color);
-        font-weight: 300;
-        gap: 5px;     
+     font-family: var(--paragraph-font);
+     color:  var(--Primary-color);
+     font-weight: 300;
+     gap: 5px;     
     }
     label {       
         font-size: 1em;
@@ -171,17 +171,17 @@
     } 
 
     /* About Us class selectors */
-.hero { 
-    width: 100%;
-    height: auto;
-    position: relative; 
-    margin-top: 0.5rem;    
-    align-content: center;
-    background-color: var(--accent1-color);
-    background-color: #f6f8f3;
-    border: 0.1px solid #c2c2c4; 
-}
-h1 {     
+     .hero { 
+        width: 100%;
+        height: auto;
+        position: relative; 
+        margin-top: 0.5rem;    
+        align-content: center;
+        background-color: var(--accent1-color);
+        background-color: #f6f8f3;
+        border: 0.1px solid #c2c2c4; 
+     }
+    h1 {     
     font-size: 2.5em;
     font-weight: bold;    
     width: 1820px;
@@ -231,7 +231,67 @@ article img {
 .sociallinks a {
     text-decoration-line: none;
     gap: 4px;
+}
+.linkpages a {
+    width: 35px; 
+    background: hsl(318, 96%, 18%); 
+    color: #ffffff; 
+    text-align: center;   
+    text-decoration: none;
+    border-width: 4px;
+    border: border: 0.1px solid #c2c2c4; 
+    font-size: 1.3em;
+    font-style: bold;
+}
+.navigate a:hover {
+    background: #3b1717; 
 }    
+ .items {
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 0.5rem; 
+    background-color: var(--accent1-color);
+    border: 0.1px solid #c2c2c4; 
+    padding-top: 0.1rem; 
+    padding-bottom: 0.1rem; 
+    gap: 1rem;     
+ }
+ 
+ .items h4 {
+    order: 3;
+    width: 100%;
+    margin-left: 0.2rem;
+ }
+ .items p {
+    order: 1;
+    width: 100%;
+    margin-left: 0.6rem;
+ }
+ .items img  {
+        order:2
+ } 
+    .flex-icons {
+        display: flex;  
+        flex-direction: row;   
+        justify-content: space-evenly;         
+        padding-top: 3rem;
+        background-color: var(--accent1-color);
+        border: 0.1px solid #c2c2c4; 
+        height: 15rem;
+        margin-top: 0.5rem;
+        text-align: center; 
+        padding-bottom: 0.01rem;
+        padding-top: 4.5rem;            
+    } 
+    .flex-icons h2 {
+        position: absolute;
+        top: 57rem;
+        font-size: 2em; 
+        margin-left: 1rem;  
+    }   
+    
+    
  /* contact us class selectors */      
     .form-item {
         display: grid;
@@ -244,12 +304,12 @@ article img {
         margin-right: 0.5rem;        
     }
     .item2 {
-        margin-top: 0.5rem;
+        margin-top: 0.5;
         grid-template-columns: 2fr 3fr;
         margin-right: 0.5rem;
     }
     .item3 {
-        margin-top: 0.5rem;
+        margin-top: 0.5;
         grid-template-columns: 2fr 3fr;
         margin-right: 0.5rem;
     }    
@@ -283,21 +343,43 @@ article img {
     .flex p {
         font-size: 1.5em;
         line-height: 1.8rem;
-        color: #0000A3; 
-        border: 0.5px solid #ffffff;
-        background-color: rgb(237, 238, 241); 
-        padding-left: 0.6rem; 
-    }
+        color: navy
+    } 
     .flex h2 {
         font-style: italic;
         margin-left: 4.5rem;
         color: #010131;
+    }
+    .section { 
+        display: flex;
+        flex-direction: row;
+        align-items: center;     
+        justify-content: space-evenly;                              
+        padding-top: rem;
+        background-color: var(--accent1-color);
+        border: 1px solid #177b9f;  
+        height: 30rem;        
+        color: var(--Primary-color); 
+        margin-bottom: 0.4rem; 
+        margin-top: 0.4rem; 
+        position: relative;         
     }    
+    .section p {
+        font-family: var(--paragraph-font);
+        font-size: larger;
+        font-weight: 600;
+        line-height: 2;
+    } 
+    .section h2 { 
+        font-size: 2.3em;
+        font-weight: bold;
+        font-style: italic;
+    }
      .submit button {
         position: absolute;
         width: fit-content;
         margin-left: 3rem;
-        top: 23.8rem;
+        top: 20.8rem;
         color: #fff; 
         font-size: 1rem;       
         border: 3px solid #c2c2c4; 
@@ -324,4 +406,48 @@ article img {
         padding-left: 1rem;        
         font-style: italic;
         color: #010131;
+
+    }
+    .pages {
+        background-color: var(--accent1-color);      
+        position: relative;
+        display: flex;
+        flex: 1 2 1 100%; 
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .linkpages {
+       position: absolute;
+       padding-top: 15rem;
+       padding-left: 12rem;
+       font-size: 2em;
+    }
+    .pages h6  {
+        font-size: 2em;
+        padding-top: 5rem;
+        padding-left: 1.8rem;
+    }
+    .trips {
+        text-align: center;
+    }
+    .pages table, th, td {
+        margin-top: 8rem;
+        margin-right: 4rem;
+        border: 1px solid #023446;
+        height: 2rem;
+       
+    }
+    .pages td {
+        text-align: center;
+    }
+    .pages h5 {
+       position: absolute;
+       margin-left: 13rem;
+       border: 1px solid #023446;
+       text-align: center;
+       width: 25rem;
+       top: 5rem;
+       background-color: #505152;
+       color: #fff;
+       font-size: 1.3em;
     }
