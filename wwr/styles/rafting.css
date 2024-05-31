@@ -104,8 +104,7 @@
         display:grid;  
         position: relative;
         padding-top: 2rem;
-        padding-bottom: 0.5rem;
-        height: 23rem;      
+        padding-bottom: 0.5rem;            
     }
     fieldset {
         display: grid;      
@@ -227,7 +226,70 @@ article img {
 .sociallinks a {
     text-decoration-line: none;
     gap: 4px;
+} 
+
+.linkpages a {
+    width: 35px; 
+    background: hsl(318, 96%, 18%); 
+    color: #ffffff; 
+    text-align: center;   
+    text-decoration: none; 
+    border: 4px solid #5d5d5f; 
+    font-size: 1.3em;
+    font-style: italic;
+    }
+h6 {
+    color: #0000A3;
+}
+.navigate a:hover {
+    background: #3b1717; 
 }    
+ .items {
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 0.5rem; 
+    background-color: var(--accent1-color);
+    border: 0.1px solid #c2c2c4; 
+    padding-top: 0.1rem; 
+    padding-bottom: 0.1rem; 
+    gap: 1rem;     
+ }
+ 
+ .items h4 {
+    order: 3;
+    width: 100%;
+    margin-left: 0.2rem;
+ }
+ .items p {
+    order: 1;
+    width: 100%;
+    margin-left: 0.6rem;
+ }
+ .items img  {
+        order:2 
+ }
+ 
+ .flex-icons {
+    display: flex;  
+    flex-direction: row;   
+    justify-content: space-evenly;         
+    padding-top: 3rem;
+    background-color: var(--accent1-color);
+    border: 0.1px solid #c2c2c4; 
+    height: 15rem;
+    margin-top: 0.5rem;
+    text-align: center; 
+    padding-bottom: 0.01rem;
+    padding-top: 4.5rem;            
+} 
+.flex-icons h2 {
+    position: absolute;
+    top: 57rem;
+    font-size: 2em; 
+    margin-left: 1rem;  
+}   
+
  /* contact us class selectors */      
     .form-item {
         display: grid;
@@ -248,7 +310,7 @@ article img {
         margin-top: 0.5rem;
         grid-template-columns: 2fr 3fr;
         margin-right: 0.5rem;
-    }    
+    }      
     .flex  {
         display: flex;  
         flex-direction: row;     
@@ -293,15 +355,20 @@ article img {
         position: absolute;
         width: fit-content;
         margin-left: 3rem;
-        top: 23.8rem;
+        top: 22.4rem;
         color: #fff; 
         font-size: 1rem;       
         border: 3px solid #c2c2c4; 
         background-color: #0000A3;        
+    }
+    .submit1 button {
+        float: right;
+        border: 3px solid #c2c2c4; 
+        background-color: #0000A3;
     } 
     button:hover {
         background-color: rgb(66, 15, 2);
-   }  
+   }     
     .team {
         display: flex;  
         flex-direction: row;
@@ -321,3 +388,104 @@ article img {
         font-style: italic;
         color: #010131;
     }
+    
+    .pages {
+        background-color: var(--accent1-color);      
+        position: relative;
+        display: flex;
+        flex: 1 2 1 100%; 
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .linkpages {
+       position: absolute;
+       padding-top: 15rem;
+       padding-left: 12rem;
+       font-size: 2em;
+    }
+    .pages h6  {
+        font-size: 2em;
+        padding-top: 5rem;
+        padding-left: 1.8rem;
+    }
+    /* contact us class selectors */   
+    .Article {
+        position: absolute;
+        padding: 1rem;
+        margin-left: 2.8rem;   
+        width: 25rem;   
+        background-color: #013147;
+        color: #fff;
+        top: 3rem;
+        width: 1700px;
+    }
+    .Article img {
+        float: right;
+        width: auto;
+    }
+    .trips {
+        text-align: center;
+    }
+    .pages {
+        display: flex;
+        flex-direction: row;
+        flex: 
+        flex-wrap: nowrap
+        justify-content: space-between;
+        margin-top: 0.4rem;
+        padding: 0.2px
+        border: 3px solid #023446;
+        background-color: #e0edfa;
+    }
+    .pages table, th, td {
+        margin-top: 2rem;
+        margin-right: 4rem;
+        border: 1px solid #023446;
+        height: 2rem;
+        position: relevant 
+              
+    }
+    .note {
+        position: absolute; 
+        margin-left: 79rem;
+        top: 25rem; 
+        color:#0000A3      
+    }
+    .additional {
+       text-align: center;
+       margin-top: 13rem;
+       margin-left; 105rem;
+       font-size: 1.3em;
+       color: #0000A3; 
+       font-style: italic;
+       font-weight: 700;
+    }
+    .pages td {
+        text-align: center;
+    }
+    .pages th {
+        background-color: #022446;
+        color: #fff;
+    }
+    .pages tr {
+        background-color: #e0edfa;
+    }
+    .pages h5 {
+       position: absolute;
+       margin-left: 13rem;
+       border: 1px solid #023446;
+       text-align: center;
+       width: 25rem;
+       top: 5rem;
+       background-color: #505152;
+       color: #fff;
+       font-size: 1.3em;
+    }
+    Figcaption {
+        font-size: 0.7em;
+        font-weight: 700;
+    }
+
+   
+ /* Index page class selectors */
+ 
