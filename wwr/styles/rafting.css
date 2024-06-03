@@ -83,7 +83,7 @@
         max-width: 1400rem ;
     } 
     section button {      
-        top: 49rem;       
+        top: 46rem;       
         width: 11rem;
         height: 1.5rem;;
         margin-left: 82rem;             
@@ -92,7 +92,8 @@
         font-style: normal;
         color: #fff;        
         border: 0.1px solid #c2c2c4; 
-        background-color: #0000A3             
+        background-color: #0000A3; 
+        position: absolute;            
     }   
     /* contact us CSS*/   
     form {
@@ -190,17 +191,28 @@ article {
     position: absolute;
     padding: 1rem;
     margin-left: 2.8rem;   
-    width: 25rem;   
-    background-color: #013147;
+    width: 25rem; 
     color: #fff;
     top: 13.9rem;
     width: 1700px;
+}
+.aboutus {
+    position: absolute;
+    top: -11rem;
+    background-color: #013147;
+    padding-top: 0.5rem;
+}
+.contactus {
+    position: absolute;
+    top: -0.3rem;
+    background-color: #013147;
+    height: 25 rem;
+    padding-top: 0.5rem;
 }
 article img {
     float: right;
     width: auto;
 }
-
 .navigation a {                   
     color: #fff;
     background-color: rgb(107, 35, 17);
@@ -249,11 +261,12 @@ h6 {
     flex-direction: row;
     flex-wrap: nowrap;
     margin-top: 0.5rem; 
+    margin-bottom: 0.2rem;
     background-color: var(--accent1-color);
     border: 0.1px solid #c2c2c4; 
-    padding-top: 0.1rem; 
-    padding-bottom: 0.1rem; 
-    gap: 1rem;     
+    padding: 3rem; 
+    padding-bottom: 0.3rem; 
+    gap: 1rem;       
  }
  
  .items h4 {
@@ -277,18 +290,19 @@ h6 {
     padding-top: 3rem;
     background-color: var(--accent1-color);
     border: 0.1px solid #c2c2c4; 
-    height: 15rem;
+    height: 13rem;
     margin-top: 0.5rem;
     text-align: center; 
-    padding-bottom: 0.01rem;
-    padding-top: 4.5rem;            
+    padding-bottom: 1.5rem;
+    padding-top: 3.3rem;            
 } 
 .flex-icons h2 {
     position: absolute;
-    top: 57rem;
+    top: 51rem;
     font-size: 2em; 
     margin-left: 1rem;  
-}   
+} 
+
 
  /* contact us class selectors */      
     .form-item {
@@ -412,7 +426,7 @@ h6 {
         position: absolute;
         padding: 1rem;
         margin-left: 2.8rem;   
-        width: 25rem;   
+        width: 1rem;   
         background-color: #013147;
         color: #fff;
         top: 3rem;
