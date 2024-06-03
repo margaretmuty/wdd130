@@ -200,6 +200,7 @@ article img {
     float: right;
     width: auto;
 }
+
 .navigation a {                   
     color: #fff;
     background-color: rgb(107, 35, 17);
@@ -227,7 +228,6 @@ article img {
     text-decoration-line: none;
     gap: 4px;
 } 
-
 .linkpages a {
     width: 35px; 
     background: hsl(318, 96%, 18%); 
@@ -392,8 +392,7 @@ h6 {
     .pages {
         background-color: var(--accent1-color);      
         position: relative;
-        display: flex;
-        flex: 1 2 1 100%; 
+        display: flex;      
         flex-direction: row;
         justify-content: space-between;
     }
@@ -402,7 +401,7 @@ h6 {
        padding-top: 15rem;
        padding-left: 12rem;
        font-size: 2em;
-    }
+    }    
     .pages h6  {
         font-size: 2em;
         padding-top: 5rem;
@@ -424,37 +423,44 @@ h6 {
         width: auto;
     }
     .trips {
+        display: flex;
         text-align: center;
+        flex-direction: column;
+        margin-left: 10rem;
+        margin-top: 0.4rem;
+     
     }
     .pages {
-        display: flex;
-        flex-direction: row;
-        flex: 
-        flex-wrap: nowrap
-        justify-content: space-between;
+        display: flex;        
+        flex-direction: row;     
+        justify-content: 
         margin-top: 0.4rem;
-        padding: 0.2px
+        padding: 0.5px;
         border: 3px solid #023446;
         background-color: #e0edfa;
-    }
+        position: relative;
+        width: 1840px;
+        height:29rem;
+    }   
     .pages table, th, td {
         margin-top: 2rem;
-        margin-right: 4rem;
+        margin-left: 4rem;
+        margin-right: 6rem;
         border: 1px solid #023446;
-        height: 2rem;
-        position: relevant 
-              
+        height: 1rem;
+        width: 70rem;;  
+        position:          
     }
     .note {
         position: absolute; 
         margin-left: 79rem;
-        top: 25rem; 
+        top: 26rem; 
         color:#0000A3      
     }
     .additional {
        text-align: center;
-       margin-top: 13rem;
-       margin-left; 105rem;
+       margin-top: 10rem;
+       margin-left: 1rem;
        font-size: 1.3em;
        color: #0000A3; 
        font-style: italic;
@@ -466,12 +472,13 @@ h6 {
     .pages th {
         background-color: #022446;
         color: #fff;
+        width:15rem;
     }
     .pages tr {
         background-color: #e0edfa;
     }
     .pages h5 {
-       position: absolute;
+       position:absolute;
        margin-left: 13rem;
        border: 1px solid #023446;
        text-align: center;
@@ -484,8 +491,175 @@ h6 {
     Figcaption {
         font-size: 0.7em;
         font-weight: 700;
-    }
-
-   
+    }   
  /* Index page class selectors */
- 
+ .container { 
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;      
+}
+.container h2 {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 0rem;
+    border: 1px solid #023446;
+    background-color: #022446;    
+    width: 1840px;
+    height: 3rem;
+    padding-bottom: 1.5rem;    
+    justify-content: center;
+    color: #fff;
+    font: 900;
+    font-size: 3em;
+}
+.container h3 {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 0rem;       
+    width: 20rem;
+    height: 3rem;
+    padding-bottom: 1.5rem; 
+    margin-left: 3rem;   
+    justify-content: center;
+    color: #cfe604;
+    font: 900;
+    font-size: 3em;
+    border: 1px solid #06b3f1;
+    border-left: #06b3f1;   
+}
+.container-items {
+    position: absolute;
+    display: grid;  
+    background-color: #013147;
+    color: #fff;
+    margin-top: -36.5rem;
+    margin-left: 92rem;
+    margin-right: 1.5rem;    
+}
+.container-items1 {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-around ;
+    gap: 2rem;
+    width: 10rem;
+    height: 20rem;
+    position: absolute;
+    padding-top: 4rem;   
+    padding-left: 0.8rem;
+    text-align: center;   
+}
+.container-items form {
+    width:21rem;
+    height: 25rem;
+    background-color: #cbcdcf;
+    border: #2196F3;   
+    border-width: 3rem    
+}
+.container-items fieldset {
+    height: 17rem;
+    width: 10rem;
+    padding-top: 3rem;
+    margin-left: 3px;
+}
+.container-items3 {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 87rem;
+    border: 1px solid #023446;
+    background-color: #022446;    
+    width: 1200px;
+    height: 1rem;
+    padding: 2rem;
+    margin-left: 0.5rem;
+    align-content: center;
+}
+.container-items button {
+    position: absolute ;
+    color:#fff;
+    margin-top: 25rem;
+    margin-left: 5rem;
+    background-color: #374e02;
+    height: 3.5rem;
+    width: 11rem;
+    font-size: 1em;
+    font-weight: bold;  
+}
+.container-items button:hover {
+background-color: #3b1717;
+}
+.container-items3 h6 {
+    color: #fff;
+    font-size: 1.4em;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 1rem;
+}
+.container-items3 a {
+    color: #740808;
+    font-size: 1.5em;
+    font-weight:600;
+    text-decoration-line: none;
+    border: 1px solid #023446;
+    background-color: #f4f7fa;      
+    margin-left: 63rem;
+    margin-bottom: -16rem;
+    position: absolute; 
+}
+
+.container-items h2 {
+    background-color: #013147;
+    color: #fff;
+    border: 1px solid #023446;
+    font-size: 1em;
+    text-align: center;
+   }
+.container-items3 linkpages {
+    margin-left: 73rem;
+    margin-bottom: -15rem;
+    position: absolute; 
+}
+.mission {
+    position: absolute;
+    border: #010d18;
+    background-color: #406a7e;
+    width: 55rem; 
+}
+.mission1 { 
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:1rem;  
+    width: 55rem;
+    margin-top: -75rem;
+    margin-left: 25rem;
+    position: absolute;    
+    background-color: #dce5ee;
+    border-width: 5px;
+    height: 7rem;    
+}
+.mission1 p {
+padding-top: 12px;
+}
+.mission2 {   
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:1rem;  
+    width: 55rem;
+    margin-top: -65rem;
+    margin-left: 33rem;
+    position: absolute;    
+    background-color: #dce5ee;
+    border-width: 5px;
+    height: 7rem;
+    text-align: center;
+}
+.mission2 p {
+    padding-top: 5px;
+}
+    
+
